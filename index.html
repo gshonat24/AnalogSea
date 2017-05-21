@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AnalogSea</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="image"><img class="logo" src="logo.png" alt="Analog Sea" /></div>
+
+    <div class="box"> <form class="sign-up" action="/signup" method="post">
+        <legend>Sign up</legend>
+        <label for="user-email">Email
+            <input class="email" id="user_email" type="text" placeholder="foo@bar.com" required>
+        </label>
+        <label for="user-password">Password
+            <input class="password" id="user_password" type="password" placeholder="1234passwOrd" required>
+        </label>
+        <button class="submit" type="submit">Sign up</button>
+        <div class="forgot_password"><a class="white" href="/forgot_password">Forgot password?<a></div>
+</form></div>
+
+	<div class="existing_account">
+		<p>Already have an account?
+			<a class="login" href="/login">Log in</a>
+            </p>
+        </div>
+</body>
